@@ -248,10 +248,10 @@ form input:focus{
 footer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10em;
     bottom: 0;
-    background-color: var(--background);
+    background-color: darkslategray;
     width: 100%;
     padding: 5em 15%;
 }
@@ -316,6 +316,51 @@ footer{
 
 .White{
     color: white;
+}
+
+.whitep{
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 1em;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+.headers{
+    text-align: center;
+    font-size: 5em;
+    margin: 0.5em 0;
+    margin-top: 2em;
+}
+
+.mythevid{
+    display: block;
+    width: 70vw;
+    border-radius: 5%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+.githublink{
+    color: cyan;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 1em;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    display: block;
+}
+.githublink:hover{
+    color: #007bff;
+    opacity: 1;
 }
 
 
