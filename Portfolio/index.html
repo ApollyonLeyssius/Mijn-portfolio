@@ -34,8 +34,8 @@
         </div>
 
         <div class="btn-box">
-            <div class="btn">Hire</div>
-            <div class="btn">Contact Me</div>
+            <a href="#contact" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact Me</a>
         </div>
     </section>
 
@@ -140,20 +140,21 @@
         <section id="contact">
         <h1 class="header"><span>Contact</span></h1>
 
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method="POST">
+             <input type="hidden" name="access_key" value="3b8e1f81-41d4-4e7d-9ad2-2c0b04e0ba64">
             <div class="input-box">
                 <span>Full Name</span>
-                <input type="text" placeholder="Enter your full name">
+                <input type="text" name="name" placeholder="Enter your full name" required>
             </div>
                 <div class="input-box">
                 <span>Email</span>
-                <input type="email" placeholder="Enter your email">
+                <input type="email" name="email" placeholder="Enter your email" required>
             </div>
                 <div class="input-box">
                 <span>Message</span>
-                <input type="text" placeholder="Enter your message">
+                <input type="text" name="message" placeholder="Enter your message" required>
             </div>
-            <div class="btn">Send Message</div>
+            <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
 

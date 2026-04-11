@@ -435,7 +435,11 @@ footer{
     outline: 2px solid #ffff00;
     outline-offset: 2px;
 }
-
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 @media(max-width:968px)
 {
     section{
