@@ -1,3 +1,6 @@
+.skilllink {
+    color: inherit !important;
+}
 *{
     padding: 0;
     margin: 0;
@@ -362,7 +365,10 @@ footer{
     color: #007bff;
     opacity: 1;
 }
-
+.skillink{
+    color: inherit;
+    background-color: inherit;
+}
 .slider-wrapper{
     position: relative;
     max-width: 48rem;
