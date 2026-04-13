@@ -77,6 +77,8 @@ span{
     color: white;
     font-size: 3em;
     display: none;
+    cursor: pointer;
+    z-index: 1100;
 }
 section{
     min-height: 100vh;
